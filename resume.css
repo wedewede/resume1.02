@@ -1,0 +1,166 @@
+body{
+    background:white;
+    color: black;
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  hr{
+    border: none;
+    height: 0;
+    border-top:1px solid;
+  }
+  .clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .topNavBar{
+    padding: 20px 16px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .topNavBar .logo {
+    font-family: "Arial Black";
+    font-size: 28px;
+    font-family: Calibre;
+    font-weight: bold;
+    padding-top: 1px;
+    
+  }
+  .topNavBar .logo .rs{
+    color: #e6686a;
+    margin-right: 4px;
+  }
+  .topNavBar .logo .card{
+    color:rgb(154, 157, 162);
+  }
+  
+  .topNavBar nav {
+   
+    font-size: 12px;
+    padding-top: 14px;
+    padding-bottom: 8px;
+  }
+  .topNavBar nav a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .topNavBar nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 17px;
+  }
+  .topNavBar nav ul>li{
+    float: left;
+    margin-left: 34px;
+  }
+  .topNavBar nav ul>li>a{
+    border-bottom: 3px solid transparent;
+    padding: 5px 0;
+  }
+  .topNavBar nav ul>li>a:hover{
+    border-bottom-color: #DC6465;
+  }
+  /* 这是banner图 */
+  .banner{
+    background-image:url("./img/banner.jpg");
+    height: 516px;
+    background-size: cover;
+  }
+  .banner .mask{
+    background-color:rgba(0, 0, 0, 0.7);
+    height: 515px;
+  }
+  /* 这是card */
+  .cards{
+    max-width: 930px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: -345px;
+  }
+  .cards .pictureAndText .picture img{
+    height:340px;
+  }
+  .cards .pictureAndText {
+    box-sizing: border-box;
+    padding: 60px 50px 30px;
+    
+  }
+  .cards .pictureAndText .picture{
+    float: left;
+    padding-right: 60px;
+  }
+  .cards .pictureAndText .text{
+    float: left;
+  }
+  .cards .welcome{
+    background-color:#e8676b;
+    color: white;
+    display: inline-block;
+    padding: 5px 12px ;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+  .triangle{
+      border:10px solid transparent;
+      width:0px;
+      height:0px;
+      border-left-color:#e8676b ;
+      border-top-width:0px;
+      position: absolute;
+      top:100%;
+      left:4px;
+  }
+  .cards .text{
+    width:450px;
+  }
+  .cards .text h1{    
+    margin:25px 0 10px 0;
+  }
+  .cards hr{
+    color: #dedede;
+    margin: 25px 0 20px 0;
+  }
+  .cards dl dd,dt{
+    float: left;
+    padding: 8px 0;
+  }
+  .cards dl dd{
+    width: 70%;
+    color: #a2a5ab;
+  }
+  .cards dl dt{
+    width:30%;
+    font-weight: bold;
+  }
+ .media{
+   width:930px;
+   background-color:#e8676b ;
+   text-align: center;
+   
+ }
+ .media>a{
+   border-radius: 50%;
+   margin: 20px;
+   display: inline-block;
+   padding: 10px;
+ }
+ .media>a:hover{
+   background: #cf505f;
+ }
+.media>a>img{
+  width: 20px;
+  vertical-align: top;
+ 
+}
